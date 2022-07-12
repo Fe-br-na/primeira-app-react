@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Header from './componentes/Header'
+import Body from './componentes/Body'
+import Dados from './componentes/Dados'
+import './App.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+export default function App(){
+  const Funciona='Por favor Funciona'
+ //const soma=(v1,v2)=>{
+    //return v1+v2
+  
+
+  return(
+
+   <section>
+     <Header />
+     <Body />
+     <Dados Funciona={Funciona}
+           // soma={soma}
+     
+     />
+   </section>
+  ) 
 }
-
-export default App;

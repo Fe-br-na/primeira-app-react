@@ -1,0 +1,10 @@
+.caixa{
+ display: flex;
+ flex-direction: column;
+ align-content: center;
+ align-items: center;
+}
+.texto{
+ color:#a02424;
+ font-size: 1em;	
+}
