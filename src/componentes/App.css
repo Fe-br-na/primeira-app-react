@@ -1,8 +1,22 @@
+.simb img{
+	align-items:flex-end;
+	display: flex;
+	justify-items: flex-end;
+}
 .caixa{
  display: flex;
  flex-direction: column;
  align-content: center;
  align-items: center;
+}
+
+.caixa b{
+	text-decoration: nome;
+	color: #a02424;
+}
+.caixa b:hover{
+	background-color: #00f;
+	color:#fff;
 }
 .texto{
  color:#a02424;
